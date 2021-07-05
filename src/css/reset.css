@@ -1,0 +1,66 @@
+/* reset */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, address, em, img, small, strong, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, figure, footer, header, nav, section, summary, audio, video, input, svg, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+button{
+  font-family: 'Dotum', 'AppleGothic', sans-serif; 
+}
+table {
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 0; }
+
+li {
+  list-style: none; }
+
+img {
+  border: 0 none;
+  vertical-align: top;
+  max-width:100%;
+}
+
+legend, caption {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  color: transparent; }
+
+article, aside, details, figure, footer, header, nav, section, main {
+  display: block; }
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  background: none; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+svg {
+  overflow: visible; }
+
+hr {
+  border: none;
+  margin: 0; }
+input::placeholder {
+  color:#757575;
+}
+textarea::placeholder {
+  color:#757575;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
