@@ -3,9 +3,9 @@
 </style>
 <template>
   <div class="login-template">
-    <div class="logo">
+    <h1 class="logo">
       <img src="../img/login-logo.png" alt="alcon위탁재고시스템" />
-    </div>
+    </h1>
     <fieldset class="login-form">
       <legend class="blind">로그인</legend>
       <div class="input-row">
@@ -31,9 +31,9 @@
         <label for="maintain-status" class="chk-label">로그인 상태 유지</label>
       </div>
       <div class="btn-row">
-        <router-link to="/main" class="default-btn login-btn">
+        <button type="button" class="default-btn login-btn" @click="LoginProcessing">
           LOGIN
-        </router-link>
+        </button>
       </div>
       <router-link to="/" class="find-password">
         비밀번호를 잊으셨나요?

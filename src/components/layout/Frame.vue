@@ -16,7 +16,6 @@
           </div>
           <div class="affiliation">
             <span class="position">알콘관리자</span>
-            <span class="user"><strong>공수래</strong>님</span>
           </div>
           <div class="btns-area">
             <button type="button" class="user-btn" @click="defaultMenu">
